@@ -1,0 +1,96 @@
+body {
+    font-family:'roboto', 'Raleway', 'sans-serif';
+       color:#212121;
+       font-style: normal;
+       background-color: #E5E5E5;
+   }
+   .header {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: #212121;
+}
+.header:hover,
+.header:focus {
+    color: #2196F3;
+}
+.link {
+    text-decoration: none;
+    font-family: 'roboto'
+    letter-spacing: 0.02em;
+}
+.logo {
+    color:#2196F3;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+.logo-header {
+    color: #000000;
+}
+.header-mail,
+.header-phone {
+    color: #757575;
+    line-height: 1.14;
+}
+.effective-for-business {
+    background-color: #2F303A;
+}
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.btn {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-soacing: 0.06;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+}
+.lorem {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575
+}
+.introduction {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.our-team {
+    background: #F5F4FA;
+}
+
