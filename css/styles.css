@@ -2,22 +2,26 @@ body {
     font-family:'roboto', 'Raleway', 'sans-serif';
        color:#212121;
        font-style: normal;
-       background-color: #E5E5E5;
+       background-color: #FFFFFF;
    }
-   .header {
+.header {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
-    color: #212121;
+    border: #ECECEC solid 1px;
 }
-.header:hover,
-.header:focus {
+li {
+    list-style: none;
+}
+.link:hover,
+.link:focus {
     color: #2196F3;
 }
 .link {
     text-decoration: none;
     letter-spacing: 0.02em;
-    font-family: 'roboto'
+    font-family: 'roboto';
+    color: #212121;
 }
 .logo {
     color:#2196F3;
@@ -40,7 +44,6 @@ body {
 }
 .title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -53,19 +56,17 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.06;
+    letter-spacing: 0.06em;
     color: #FFFFFF;
     text-align: center;
     align-items: center;
+    cursor: pointer;
 }
 .lorem {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -73,7 +74,6 @@ body {
 }
 .introduction {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -82,7 +82,6 @@ body {
 }
 h2 {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -95,8 +94,6 @@ h2 {
 }
 .experts {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -105,7 +102,6 @@ h2 {
 }
 .name {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -113,9 +109,12 @@ h2 {
     letter-spacing: 0.03em;
     color: #212121;
 }
+.footer-contacts {
+    background-color: #2F303A;;
+}
 .logo-footer {
+    text-decoration: none;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -128,7 +127,6 @@ h2 {
 .address {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -139,9 +137,60 @@ h2 {
     text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-phone:hover,
+.footer-phone:focus {
+    color:#2196F3;
+}
+.example {
+    color:#212121;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+.example:hover,
+.example:focus {
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.technoduck,
+.poster-new-orlean-vs-golden-star,
+.restaurant,
+.project-prime,
+.project-box,
+.inspiration-has-no-borders,
+.limited-edition,
+.project-lab,
+.growing-business {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    width: 370px;
+    height: 404px;
+    color: #757575;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+.portfolio-text {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
