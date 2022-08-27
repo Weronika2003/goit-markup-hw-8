@@ -16,8 +16,8 @@ body {
 }
 .link {
     text-decoration: none;
-    font-family: 'roboto'
     letter-spacing: 0.02em;
+    font-family: 'roboto'
 }
 .logo {
     color:#2196F3;
@@ -57,7 +57,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    letter-soacing: 0.06;
+    letter-spacing: 0.06;
     color: #FFFFFF;
     text-align: center;
     align-items: center;
