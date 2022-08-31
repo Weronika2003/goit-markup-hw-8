@@ -223,8 +223,7 @@ h2 {
     letter-spacing: 0.03em;
     text-align: center;
     background-color: #F5F4FA;
-    border-radius: 4px;
-}
+    border-radius: 4px;}
 .example:hover,
 .example:focus {
     color: #FFFFFF;
@@ -242,7 +241,6 @@ h2 {
 .project-lab,
 .growing-business {
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
     box-sizing: border-box;
     width: 370px;
     height: 404px;
@@ -251,6 +249,8 @@ h2 {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+    display: flex;
+
 }
 .portfolio-text {
     font-family: 'Roboto';
