@@ -8,14 +8,20 @@ body {
        box-sizing:border-box;
        width: 1600px;
    }
+   *{
+    margin: 0;
+    padding: 0;
+   }
    .container{
     width: 1200px;
+    padding: 0 15px;
    }
    .section {
-    padding: 94px
+    padding: 94px;
    }
    .header{
     width: 1600px;
+    height: 80px;
     border-bottom: #ECECEC solid 1px;
    }
 .header-contacts,
@@ -24,12 +30,18 @@ body {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
+    align-items: baseline;
+    display: flex;
+    align-items: center;
 }
 .new-class {
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-contacts {
+    justify-content: space-between;
 }
 li {
     list-style: none;
@@ -43,7 +55,6 @@ li {
     letter-spacing: 0.02em;
     font-family: 'roboto';
     color: #212121;
-    display: flex;
 }
 .logo {
     color:#2196F3;
