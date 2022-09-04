@@ -1,82 +1,111 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 body {
-    font-family:'roboto', 'Raleway', 'sans-serif';
-       color:#212121;
-       font-style: normal;
-       background-color: #FFFFFF;
-       margin: 0;
-       padding: 0;
-       box-sizing:border-box;
-       width: 1600px;
-   }
-   *{
+    font-family: 'roboto', 'Raleway', 'sans-serif';
+    color: #212121;
+    font-style: normal;
+    background-color: #FFFFFF;
     margin: 0;
     padding: 0;
-   }
-   .container{
+    box-sizing: border-box;
+    max-width: 1600px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
     width: 1200px;
     padding: 0 15px;
-   }
-   .section {
+}
+
+.section {
     padding: 94px;
-   }
-   .header{
+}
+
+.header {
     width: 1600px;
     height: 80px;
     border-bottom: #ECECEC solid 1px;
-   }
-.header-contacts,
+    padding:0 200px;
+}
 .nav {
     box-sizing: border-box;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
-    align-items: baseline;
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    align-content: center;
 }
 .new-class {
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    justify-items: space-between;
     align-items: center;
 }
 .header-contacts {
-    justify-content: space-between;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    padding-top: 32px;
+    display: flex;
 }
+
 li {
     list-style: none;
 }
+
 .link:hover,
 .link:focus {
     color: #2196F3;
 }
+
 .link {
     text-decoration: none;
     letter-spacing: 0.02em;
     font-family: 'roboto';
     color: #212121;
 }
+
 .logo {
-    color:#2196F3;
+    color: #2196F3;
     font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.2;
     font-weight: 700;
     letter-spacing: 0.03em;
+    padding-top: 24px;
     margin-right: 93px;
+    margin-top: 24px;
 }
+
 .studio,
 .portfolio-header {
     margin-right: 46px;
 }
+
 .logo-header {
     color: #000000;
 }
+
 .header-mail,
 .header-phone {
     color: #757575;
     line-height: 1.14;
 }
+.header-mail {
+    margin-right: 50px;
+    margin-left: 371px;
+}
+
 .effective-for-business {
     background-color: #2F303A;
     min-height: 600px;
@@ -86,6 +115,7 @@ li {
     align-items: center;
     justify-content: center;
 }
+
 .title {
     font-family: 'Roboto';
     font-weight: 900;
@@ -95,6 +125,7 @@ li {
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
+
 .btn {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -109,10 +140,12 @@ li {
     align-items: center;
     cursor: pointer;
 }
+
 .btn-order-service {
     width: 200px;
     height: 50px;
 }
+
 .lorem {
     font-family: 'Roboto';
     font-size: 14px;
@@ -123,6 +156,7 @@ li {
     justify-content: space-between;
     align-content: center;
 }
+
 .introduction {
     font-family: 'Roboto';
     font-weight: 700;
@@ -135,6 +169,7 @@ li {
     margin-right: 30px;
     margin-bottom: 10px;
 }
+
 h2 {
     font-family: 'Roboto';
     font-weight: 700;
@@ -144,13 +179,16 @@ h2 {
     letter-spacing: 0.03em;
     color: #212121;
 }
+
 .what-we-do {
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
+
 .our-team {
     background: #F5F4FA;
 }
+
 .experts {
     font-family: 'Roboto';
     font-size: 16px;
@@ -161,6 +199,7 @@ h2 {
     display: flex;
     align-items: center;
 }
+
 .name-box {
     display: flex;
     flex-direction: column;
@@ -170,6 +209,7 @@ h2 {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+
 .name {
     font-family: 'Roboto';
     font-weight: 500;
@@ -178,14 +218,16 @@ h2 {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    display:flex;
+    display: flex;
     flex-direction: column;
     margin-top: 30px;
 }
+
 .footer-contacts {
     background-color: #2F303A;
     box-sizing: border-box;
 }
+
 .logo-footer {
     text-decoration: none;
     font-family: 'Raleway';
@@ -197,9 +239,11 @@ h2 {
     padding-left: 215px;
     display: flex;
 }
+
 .studio-footer {
     color: #FFFFFF
 }
+
 .address {
     font-family: 'Roboto';
     font-style: normal;
@@ -208,9 +252,10 @@ h2 {
     letter-spacing: 0.03em;
     color: #FFFFFF;
     padding-left: 215px;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
+
 .footer-mail,
 .footer-phone {
     text-decoration: none;
@@ -221,17 +266,19 @@ h2 {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     padding-left: 215px;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
+
 .footer-mail:hover,
 .footer-mail:focus,
 .footer-phone:hover,
 .footer-phone:focus {
-    color:#2196F3;
+    color: #2196F3;
 }
+
 .example {
-    color:#212121;
+    color: #212121;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -239,7 +286,9 @@ h2 {
     letter-spacing: 0.03em;
     text-align: center;
     background-color: #F5F4FA;
-    border-radius: 4px;}
+    border-radius: 4px;
+}
+
 .example:hover,
 .example:focus {
     color: #FFFFFF;
@@ -247,10 +296,12 @@ h2 {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
+
 .flex-button {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
+
 .technoduck,
 .poster-new-orlean-vs-golden-star,
 .restaurant,
@@ -271,9 +322,11 @@ h2 {
     letter-spacing: 0.03em;
     display: flex;
 }
+
 .portfolio-images {
     display: flex;
 }
+
 .portfolio-text {
     font-family: 'Roboto';
     font-weight: 700;
