@@ -26,7 +26,7 @@ body {
 }
 
 .section {
-    padding: 94px;
+    padding: 94px 200px;
 }
 
 .header {
@@ -43,6 +43,7 @@ body {
     display: flex;
     align-items: baseline;
     align-content: center;
+    margin-right: 30px;
 }
 .new-class {
     display: flex;
@@ -82,9 +83,8 @@ li {
     line-height: 1.2;
     font-weight: 700;
     letter-spacing: 0.03em;
-    padding-top: 24px;
     margin-right: 93px;
-    margin-top: 24px;
+    align-content: center;
 }
 
 .studio,
@@ -139,6 +139,7 @@ li {
     text-align: center;
     align-items: center;
     cursor: pointer;
+    margin-top: 40px;
 }
 
 .btn-order-service {
@@ -153,8 +154,13 @@ li {
     letter-spacing: 0.03em;
     color: #757575;
     display: flex;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1170px;
+    padding-bottom: 0;
+}
+.list-lorem {
+    margin-right: 30px;
 }
 
 .introduction {
@@ -164,9 +170,8 @@ li {
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: #212121;
+    text-align: justify;
     display: flex;
-    margin-top: 80px;
-    margin-right: 30px;
     margin-bottom: 10px;
 }
 
@@ -178,6 +183,8 @@ h2 {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-top: 0;
+    padding-bottom: 50px;
 }
 
 .what-we-do {
@@ -187,6 +194,7 @@ h2 {
 
 .our-team {
     background: #F5F4FA;
+    height: 648px;
 }
 
 .experts {
@@ -198,6 +206,7 @@ h2 {
     color: #757575;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .name-box {
@@ -206,6 +215,8 @@ h2 {
     background: #FFFFFF;
     height: 108px;
     align-content: center;
+    margin-top: 0;
+    padding-top: 0;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -226,6 +237,7 @@ h2 {
 .footer-contacts {
     background-color: #2F303A;
     box-sizing: border-box;
+    height: 252px;
 }
 
 .logo-footer {
@@ -237,7 +249,10 @@ h2 {
     letter-spacing: 0.03em;
     color: #2196F3;
     padding-left: 215px;
+    padding-top: 60px;
+    padding-bottom: 20px;
     display: flex;
+    align-content: center;
 }
 
 .studio-footer {
@@ -254,6 +269,7 @@ h2 {
     padding-left: 215px;
     display: flex;
     flex-direction: column;
+    align-content: center;
 }
 
 .footer-mail,
@@ -266,8 +282,10 @@ h2 {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     padding-left: 215px;
+    padding-top: 9px;
     display: flex;
     flex-direction: column;
+    align-content: center;
 }
 
 .footer-mail:hover,
@@ -286,7 +304,11 @@ h2 {
     letter-spacing: 0.03em;
     text-align: center;
     background-color: #F5F4FA;
+    border-color: #F5F4FA;
     border-radius: 4px;
+    width: 93px;
+    height: 38px;
+    margin-right: 8px;
 }
 
 .example:hover,
