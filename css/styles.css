@@ -28,13 +28,13 @@ body {
 .section {
     padding: 94px 200px;
 }
-
 .header {
     width: 1600px;
     height: 80px;
     border-bottom: #ECECEC solid 1px;
-    padding:0 200px;
+    padding: 0 200px;
 }
+
 .nav {
     box-sizing: border-box;
     font-size: 14px;
@@ -43,14 +43,16 @@ body {
     display: flex;
     align-items: baseline;
     align-content: center;
-    margin-right: 30px;
+    margin-right: 46px;
 }
+
 .new-class {
     display: flex;
     justify-content: center;
     justify-items: space-between;
     align-items: center;
 }
+
 .header-contacts {
     box-sizing: border-box;
     font-size: 14px;
@@ -83,7 +85,7 @@ li {
     line-height: 1.2;
     font-weight: 700;
     letter-spacing: 0.03em;
-    margin-right: 93px;
+    margin-right: 47px;
     align-content: center;
 }
 
@@ -101,10 +103,12 @@ li {
     color: #757575;
     line-height: 1.14;
 }
+
 .header-mail {
     margin-right: 50px;
     margin-left: 371px;
 }
+
 
 .effective-for-business {
     background-color: #2F303A;
@@ -296,6 +300,9 @@ h2 {
 .footer-phone:focus {
     color: #2196F3;
 }
+.section-portfolio-btn {
+    padding-bottom: 50px;
+}
 
 .example {
     color: #212121;
@@ -324,6 +331,9 @@ h2 {
 .flex-button {
     display: flex;
     justify-content: center;
+}
+.section-portfolio-images {
+    padding-top: 0;
 }
 
 .technoduck,
