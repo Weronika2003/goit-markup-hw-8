@@ -1,18 +1,15 @@
-*,
-*::after,
-*::before {
+* {
     box-sizing: border-box;
 }
 
 body {
     font-family: 'roboto', 'Raleway', 'sans-serif';
     color: #212121;
-    font-style: normal;
     background-color: #FFFFFF;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1600px;
+    width: 1600px;
 }
 
 * {
@@ -23,16 +20,15 @@ body {
 .container {
     width: 1200px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .section {
-    padding: 94px 200px;
+    padding: 94px;
 }
 .header {
-    width: 1600px;
     height: 80px;
     border-bottom: #ECECEC solid 1px;
-    padding: 0 200px;
 }
 
 .nav {
@@ -49,7 +45,7 @@ body {
 .new-class {
     display: flex;
     justify-content: center;
-    justify-items: space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -58,7 +54,6 @@ body {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
-    padding-top: 32px;
     display: flex;
 }
 
