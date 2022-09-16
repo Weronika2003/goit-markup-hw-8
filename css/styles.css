@@ -101,8 +101,10 @@ li {
 
 .effective-for-business {
     background-color: rgba(47, 48, 58, 0.4);
-    background-image: url('./Images/background-zipped.jpg');
-    background-size: cover;
+    background-image: url("./Images/background-zipped.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 600px;
     padding-top: 0px;
     display: flex;
