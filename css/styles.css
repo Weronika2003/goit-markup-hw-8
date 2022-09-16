@@ -83,10 +83,7 @@ li {
 .logo-header {
     color: #000000;
 }
-.header-mail::before{
-    content:"";
-    display:block;
-}
+
 .header-mail,
 .header-phone {
     color: #757575;
