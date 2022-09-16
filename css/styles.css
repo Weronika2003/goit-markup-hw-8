@@ -83,7 +83,10 @@ li {
 .logo-header {
     color: #000000;
 }
-
+.header-mail::before{
+    content:"";
+    display:block;
+}
 .header-mail,
 .header-phone {
     color: #757575;
@@ -97,7 +100,9 @@ li {
 
 
 .effective-for-business {
-    background-color: #2F303A;
+    background-color: rgba(47, 48, 58, 0.4);
+    background-image: url('./Images/background-zipped.jpg');
+    background-size: cover;
     min-height: 600px;
     padding-top: 0px;
     display: flex;
