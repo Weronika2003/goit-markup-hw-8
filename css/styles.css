@@ -93,11 +93,21 @@ li {
 .header-mail {
     margin-right: 50px;
 }
-
+.icon-envelope:hover,
+.icon-phone:hover {
+    fill:#2196F3;
+}
+.icon-envelope,
+.icon-phone {
+    color: currentColor;
+}
+.link:hover .icon-header {
+    fill:#2196F3;
+}
 
 .effective-for-business {
     background-color: rgba(47, 48, 58, 0.4);
-    background-image: url(./Images/background-zipped.jpg);
+    background-image: url("../Images/background-zipped.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
