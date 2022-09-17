@@ -92,14 +92,13 @@ li {
 
 .header-mail {
     margin-right: 50px;
-    margin-left: 371px;
 }
 
 
 .effective-for-business {
     background-color: rgba(47, 48, 58, 0.4);
-    background-image: url("./Images/background-zipped.jpg");
-    background-size: contain;
+    background-image: url(./Images/background-zipped.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 600px;
@@ -228,6 +227,8 @@ h2 {
     background-color: #2F303A;
     height: 252px;
     width: 1600px;
+    margin: 0 auto;
+    display: flex;
 }
 
 .logo-footer {
@@ -240,6 +241,7 @@ h2 {
     color: #2196F3;
     padding-top: 60px;
     padding-bottom: 20px;
+    row-gap: 171px;
     display: flex;
     align-content: center;
 }
@@ -278,6 +280,19 @@ h2 {
 .footer-phone:hover,
 .footer-phone:focus {
     color: #2196F3;
+}
+.join-us {
+    color:#FFFFFF;
+}
+
+.footer-social-media {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.footer-join-us {
+    margin:auto;
+
 }
 .section-portfolio-btn {
     padding-bottom: 50px;
