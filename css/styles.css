@@ -195,6 +195,20 @@ h2 {
     background: #F5F4FA;
     height: 648px;
 }
+.social-media{
+    width: 20px;
+    height:20px;
+    fill: #AFB1B8;
+
+}
+.social-media:hover,
+.social-media:focus{
+    border-radius: 50%;
+    border-width: 44px;
+    background-color: #2196F3;
+    fill:#FFFFFF;
+    cursor: pointer;
+}
 
 .experts {
     font-size: 16px;
@@ -211,7 +225,7 @@ h2 {
     display: flex;
     flex-direction: column;
     background: #FFFFFF;
-    height: 108px;
+    height: 168px;
     align-content: center;
     margin-top: 0;
     padding-top: 0;
@@ -231,6 +245,7 @@ h2 {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .footer-contacts {
@@ -302,7 +317,11 @@ h2 {
 }
 .footer-join-us {
     margin:auto;
-
+}
+.footer-social-media:hover,
+.footer-social-media:focus {
+    border-radius: 50%;
+    border-width: 44px;
 }
 .section-portfolio-btn {
     padding-bottom: 50px;
