@@ -248,6 +248,22 @@ h2 {
     margin-bottom: 10px;
 }
 
+.icon-logo{
+    fill:#AFB1B8;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+}
+.icon-logo:hover,
+.icon-logo:focus {
+    fill:#2196F3;
+    border-color:#2196F3;
+}
+
 .footer-contacts {
     background-color: #2F303A;
     height: 252px;
