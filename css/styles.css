@@ -200,12 +200,16 @@ h2 {
     height: 708px;
 }
 .icons-team-media {
-    padding: 0;
+    margin-top: 16px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
+    align-content: flex-start;
+    gap: 10px;
 }
 .social-media{
     background-size: contain;
+    fill: #AFB1B8;
 }
 .social-media:hover,
 .social-media:focus{
@@ -231,7 +235,6 @@ h2 {
     display: flex;
     flex-direction: column;
     background: #FFFFFF;
-    height: 168px;
     align-content: center;
     margin: 0;
     padding: 0;
@@ -280,7 +283,9 @@ h2 {
     margin: auto;
     display: flex;
 }
-
+.footer-address {
+    margin-left: 215px;
+}
 .logo-footer {
     text-decoration: none;
     font-family: 'Raleway';
@@ -333,6 +338,8 @@ h2 {
     color: #2196F3;
 }
 .join-us {
+    padding-top: 72px;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -340,19 +347,31 @@ h2 {
     text-transform: uppercase;
     color:#FFFFFF;
 }
+.join-us-div {
+    padding-right: 862px;
+}
 
 .footer-social-media {
-    color: #FFFFFF;
     display: flex;
     flex-direction: row;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    border-width: 44px;
+    fill: rgba(255, 255, 255, 1);
 }
-.footer-join-us {
-    margin:auto;
+.footer-icons-list {
+    display: flex;
+    text-decoration: none;
+    gap:10px;
+    fill: rgba(255, 255, 255, 1);
 }
 .footer-social-media:hover,
 .footer-social-media:focus {
     border-radius: 50%;
     border-width: 44px;
+    background-color: #2196F3;
+    fill: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 .section-portfolio-btn {
     padding-bottom: 50px;
