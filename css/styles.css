@@ -47,6 +47,7 @@ body {
     font-weight: 500;
     line-height: 1.14;
     display: flex;
+    align-content: baseline;
 }
 
 li {
@@ -89,17 +90,13 @@ li {
     color: #757575;
     line-height: 1.14;
 }
-
 .header-mail {
-    margin-right: 50px;
+    margin-right: 30px;
 }
-.icon-envelope:hover,
-.icon-phone:hover {
-    fill:#2196F3;
-}
-.icon-envelope,
-.icon-phone {
-    color: currentColor;
+.mail-envelope,
+.number-phone {
+    color: #757575;
+    margin-right: 10px;
 }
 .link:hover .icon-header {
     fill:#2196F3;
@@ -147,6 +144,12 @@ li {
     width: 200px;
     height: 50px;
     border: none;
+}
+.icon-lorem{
+    background: #F5F4FA;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
 }
 
 .lorem {
@@ -247,28 +250,31 @@ h2 {
     margin-top: 30px;
     margin-bottom: 10px;
 }
-
+.our-clients{
+    display: flex;
+    gap: 30px;
+}
 .icon-logo{
     fill:#AFB1B8;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-between;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    width: 170px;
+    width:170px;
     height: 92px;
 }
 .icon-logo:hover,
 .icon-logo:focus {
     fill:#2196F3;
     border-color:#2196F3;
+    cursor: pointer;
 }
 
 .footer-contacts {
     background-color: #2F303A;
     height: 252px;
     width: 1600px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
 }
 
@@ -280,9 +286,9 @@ h2 {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
+    width: 145px;
     padding-top: 60px;
     padding-bottom: 20px;
-    row-gap: 171px;
     display: flex;
     align-content: center;
 }
@@ -309,6 +315,7 @@ h2 {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    width: 231px;
     color: rgba(255, 255, 255, 0.6);
     padding-top: 9px;
     display: flex;
@@ -323,6 +330,11 @@ h2 {
     color: #2196F3;
 }
 .join-us {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color:#FFFFFF;
 }
 
