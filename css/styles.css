@@ -357,20 +357,21 @@ h2 {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     border-width: 44px;
-    fill: rgba(255, 255, 255, 1);
+}
+.social-media-links{
+    fill:#FFFFFF;
 }
 .footer-icons-list {
     display: flex;
     text-decoration: none;
     gap:10px;
 }
-.footer-social-media:hover,
-.footer-social-media:focus {
+.social-media-links:hover,
+.social-media-links:focus {
     border-radius: 50%;
     border-width: 44px;
     background-color: #2196F3;
     fill: rgba(255, 255, 255, 1);
-    cursor: pointer;
 }
 .section-portfolio-btn {
     padding-bottom: 50px;
