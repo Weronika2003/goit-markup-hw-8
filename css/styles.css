@@ -214,15 +214,24 @@ h2 {
     background-size: contain;
     fill: #AFB1B8;
 }
-.social-media:hover,
-.team-social-media:focus{
+a .team-social-media{
+    height: 44px;
+    display: block;
+}
+.social-media:hover{
     border-radius: 50%;
     border-width: 44px;
     background-color: #2196F3;
     fill:#FFFFFF;
     cursor: pointer;
 }
-
+.team-social-media:focus .social-media{
+border-radius: 50%;
+    border-width: 44px;
+    background-color: #2196F3;
+    fill: #FFFFFF;
+    cursor: pointer;
+}
 .experts {
     font-size: 16px;
     line-height: 1.18;
