@@ -47,7 +47,7 @@ body {
     font-weight: 500;
     line-height: 1.14;
     display: flex;
-    align-content: baseline;
+    align-content: center;
 }
 
 li {
@@ -93,12 +93,14 @@ li {
 .header-mail {
     margin-right: 30px;
 }
+
 .mail-envelope,
 .number-phone {
     color: #757575;
     margin-right: 10px;
 }
-.link:hover .icon-header {
+.link:hover .icon-header,
+.link:focus .icon-header {
     fill:#2196F3;
 }
 
@@ -212,7 +214,7 @@ h2 {
     fill: #AFB1B8;
 }
 .social-media:hover,
-.social-media:focus{
+.team-social-media:focus{
     border-radius: 50%;
     border-width: 44px;
     background-color: #2196F3;
@@ -227,6 +229,7 @@ h2 {
     letter-spacing: 0.03em;
     color:#757575;
     display: flex;
+    gap: 30px;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -270,7 +273,7 @@ h2 {
     height: 92px;
 }
 .icon-logo:hover,
-.icon-logo:focus {
+.list-logo:focus {
     fill:#2196F3;
     border-color:#2196F3;
     cursor: pointer;
@@ -357,6 +360,8 @@ h2 {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     border-width: 44px;
+    height: 44px;
+    width: 44px;
 }
 .social-media-links{
     fill:#FFFFFF;
