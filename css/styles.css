@@ -41,7 +41,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.studio-web{
+.nav .studio-web{
     color: #2196F3;
 }
 .studio-web::after {
@@ -57,7 +57,7 @@ body {
     right: 0px;
     z-index: 1
 }
-.portfolio-web{
+.nav .portfolio-web{
     color: #2196F3;
 }
 .portfolio-web::after{
@@ -212,11 +212,11 @@ li {
     border-radius: 50%;
     cursor: pointer;
 }
-.btn-close:hover .icon-close-btn,
-.btn.close:focus .icon-close-btn{
-    color:#2196F3;
-    background-color: #AFB1B8;
+.btn-close:hover .icon-btn-close,
+.btn-close:focus .icon-btn-close {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2196F3;
+    background-color: #eaeaeae3;
 }
 .is-hidden {
     opacity: 0;
