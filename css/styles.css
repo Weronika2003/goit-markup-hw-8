@@ -223,6 +223,68 @@ li {
     visibility: hidden;
     pointer-events: none;
 }
+
+.modal-heading{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 40px;
+    padding-bottom: 2px;
+    margin-bottom: 12px;
+}
+.modal-form{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.modal-label{
+    padding: 10px 40px;
+    width: 448px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+.modal-input{
+    margin: 4px;
+    width: 448px;
+    height: 40px;
+}
+
+.modal-comment {
+    width: 448px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+.paragraph-regulations{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+    width: 420px;
+}
+
+
+.btn-send {
+    position:absolute;
+    top: 491px;
+    left: 164px;
+    width: 200px;
+    height:50px;
+    border: none;
+    background-color: #2196F3;
+    text-align:center;
+    color:#FFFFFF;
+}
 .icon-lorem{
     background: #F5F4FA;
     border-radius: 4px;
