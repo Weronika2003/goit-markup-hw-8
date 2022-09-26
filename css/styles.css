@@ -216,7 +216,6 @@ li {
 .btn-close:focus .icon-btn-close {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2196F3;
-    background-color: #eaeaeae3;
 }
 .is-hidden {
     opacity: 0;
@@ -314,7 +313,7 @@ a .team-social-media{
     background-color: #2196F3;
     fill:#FFFFFF;
     cursor: pointer;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-social-media:focus .social-media{
     outline: none;
@@ -323,6 +322,7 @@ a .team-social-media{
     background-color: #2196F3;
     fill: #FFFFFF;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .experts {
     font-size: 16px;
@@ -386,7 +386,7 @@ a .team-social-media{
     background-color: #2F303A;
 }
 .footer-div{
-    padding: 60px 0;
+    padding: 60px 15px;
     display: flex;
 }
 .footer-address {
@@ -453,9 +453,6 @@ a .team-social-media{
     text-transform: uppercase;
     color:#FFFFFF;
 }
-.join-us-div {
-    padding-right: 862px;
-}
 
 .footer-social-media {
     display: flex;
@@ -480,7 +477,7 @@ a .team-social-media{
     border-width: 44px;
     background-color: #2196F3;
     fill: rgba(255, 255, 255, 1);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-portfolio-btn {
     padding-bottom: 50px;
@@ -518,7 +515,7 @@ a .team-social-media{
 
 .example:hover,
 .example:focus {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     color: #FFFFFF;
     background: #2196F3;
