@@ -1,2 +1,2 @@
-# goit-markup-hw-5
-https://weronika2003.github.io/goit-markup-hw-5/
+# goit-markup-hw-6
+https://weronika2003.github.io/goit-markup-hw-6/
