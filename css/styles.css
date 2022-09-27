@@ -265,6 +265,13 @@ li {
     top: 35px;
     left: 55px;
 }
+.modal-input:focus,
+.modal-comment:focus {
+    border-color:#2196F3;
+}
+.modal-input:focus-within ~ svg{
+    fill:#2196F3;
+}
 
 .modal-comment {
     resize: none;
@@ -293,6 +300,7 @@ li {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
+    white-space: nowrap;
 }
 .paragraph-regulations::before{
     content:"";
@@ -302,6 +310,7 @@ li {
     border: 1px solid #212121;
     border-radius: 2px;
     margin-right: 7px;
+    margin-left: 14px;
 }
 .input-policy-regulations:checked + .paragraph-regulations::before {
    background-color:#2196F3;
@@ -324,7 +333,6 @@ li {
     width: 1px !important;
     overflow: hidden;
 }
-
 .btn-send {
     width: 200px;
     height:50px;
@@ -333,7 +341,9 @@ li {
     background-color: #2196F3;
     text-align:center;
     color:#FFFFFF;
+    margin-top: 30px;
     background: #2196F3;
+    cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .div-btn-send{
@@ -625,7 +635,6 @@ a .team-social-media{
     line-height: 1.25;
     display: flex;
     align-items: center;
-    padding-left: 16px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
