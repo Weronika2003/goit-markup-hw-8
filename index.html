@@ -256,7 +256,7 @@
             <h3 class="heading-footer">Zapisz się do newslettera</h3>
             <form class="form-subscribe">
                 <input class="subscribe-input" type="email" name="email" placeholder="E-mail"/>
-                <button type="submit" class="btn-subscribe"><p class="paragraph-subscribe">Zapisz się</p><svg class="icon-send"><use href="./Images/icons.svg#icon-send" ></use></svg></button>
+                <button type="submit" class="btn-subscribe">Zapisz się <svg class="icon-send"><use href="./Images/icons.svg#icon-send" ></use></svg></button>
             </form>
         </div>
         </div>
@@ -268,26 +268,35 @@
                     <use href="./Images/icons.svg#icon-close-mark" width="11" height="11" x="8" y="8"></use>
                 </svg>
             </button>
+            <div class="div-modal">
             <h4 class="modal-heading">Zostaw swoje dane w formularzu poniżej</h4>
             <form class="modal-form">
                 <label class="modal-label"><p>Imie</p>
-                    <input class="modal-input" type="name" name="username" />
+                    <input class="modal-input" type="name" name="username" style="padding-left: 42px;"/>
+                    <svg class="icons-modal" width="12" height="12"><use href="./Images/icons.svg#icon-user-1"></use></svg>
                 </label>
                 <label class="modal-label"><p>Telefon</p>
-                    <input class="modal-input" type="tel" name="phone" />
+                    <input class="modal-input" type="tel" name="phone" style="padding-left: 42px;"/>
+                    <svg class="icons-modal" width="13" height="13">
+                        <use href="./Images/icons.svg#icon-phone-2"></use>
+                    </svg>
                 </label>
                 <label class="modal-label"><p>Email</p>
-                    <input class="modal-input" type="email" name="email" />
+                    <input class="modal-input" type="email" name="email" style="padding-left: 42px;"/>
+                    <svg class="icons-modal" width="15" height="12">
+                        <use href="./Images/icons.svg#icon-email-2"></use>
+                    </svg>
                 </label>
                 <label class="modal-label"><p>Komentarz</p>
-                    <textarea class="modal-comment" type="comment" name="comment" placeholder="Wprowadź tekst"></textarea>
+                    <textarea class="modal-comment" type="comment" name="comment" placeholder="Wprowadź tekst" style="padding: 12px 16px;"></textarea>
                 </label>
                 <label class="modal-label">
-                    <input class="modal-input" type="checkbox" name="regulations"><p class="paragraph-regulations">Oświadczam iż akceptuję <a class="link-regulations" href="">Regulamin</a> i <a
+                    <input class="modal-input input-policy-regulations visually-hidden" type="checkbox" name="regulations"><p class="paragraph-regulations">Oświadczam iż akceptuję <a class="link-regulations" href="">Regulamin</a> i <a
                             class="link-regulations" href="">Politykę Prywatności.</a></p>
                 </label>
-                <button class="btn-send" type="submit">Wyślij</button>
+                <div class="div-btn-send"><button class="btn-send" type="submit">Wyślij</button></div>
             </form>
+            </div>
         </div>
     </div>
     <script src="./js/modal.js"></script>
