@@ -227,6 +227,7 @@ li {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 40px 40px;
 }
 .modal-heading{
     font-size: 20px;
@@ -234,8 +235,6 @@ li {
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 40px;
-    padding-bottom: 2px;
     margin-bottom: 12px;
 }
 .modal-form{
@@ -246,8 +245,7 @@ li {
 }
 .modal-label{
     position: relative;
-    padding: 5px 40px;
-    width: 448px;
+    margin-bottom: 10px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
@@ -262,12 +260,13 @@ li {
 }
 .icons-modal{
     position:absolute;
-    top: 35px;
-    left: 55px;
+    top: 29px;
+    left: 15px;
 }
 .modal-input:focus,
 .modal-comment:focus {
     border-color:#2196F3;
+    outline:none;
 }
 .modal-input:focus-within ~ svg{
     fill:#2196F3;
@@ -606,6 +605,7 @@ a .team-social-media{
     border-radius: 50%;
     border-width: 44px;
     background-color: #2196F3;
+    outline: none;
     fill: rgba(255, 255, 255, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -616,6 +616,10 @@ a .team-social-media{
     background-color: #2196F3;
     border: none;
     border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
     color:#FFFFFF;
     display: flex;
     align-items: center;
@@ -629,6 +633,10 @@ a .team-social-media{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: #2F303A;;
+}
+.subscribe-input:focus{
+    border-color:#2196F3;
+    outline:none;
 }
 .subscribe-input::placeholder{
     font-size: 16px;
