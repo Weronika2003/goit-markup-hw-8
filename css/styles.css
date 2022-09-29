@@ -22,11 +22,14 @@ body {
 .section {
     padding: 94px;
 }
-.header {
+li {
+    list-style: none;
+}
+.page-header {
     border-bottom: #ECECEC solid 1px;
 }
 
-.nav {
+.page-header--nav {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -35,16 +38,16 @@ body {
     margin-right: 46px;
 }
 
-.new-class {
+.page-header-container {
     padding: 24px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav .studio-web{
+.page-header--nav .page-header--studio-web{
     color: #2196F3;
 }
-.studio-web::after {
+.page-header--studio-highlight::after {
     content:"";
     position: absolute;
     background: #2196F3;
@@ -57,10 +60,10 @@ body {
     right: 0px;
     z-index: 1
 }
-.nav .portfolio-web{
+.page-header--nav .page-header--portfolio-highlight{
     color: #2196F3;
 }
-.portfolio-web::after{
+.page-header--portfolio-highlight::after {
     content:"";
     position: absolute;
     background:#2196F3;
@@ -73,7 +76,7 @@ body {
     right:0px;
     z-index: 1;
 }
-.header-contacts {
+.page-header--contacts {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -82,23 +85,19 @@ body {
     align-items: baseline;
 }
 
-li {
-    list-style: none;
-}
-
-.link:hover,
-.link:focus {
+.page-header__link:hover,
+.page-header__link:focus {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #2196F3;
 }
 
-.link {
+.page-header__link {
     text-decoration: none;
     letter-spacing: 0.02em;
     color: #212121;
 }
 
-.logo {
+.page-header--logo {
     color: #2196F3;
     font-family: 'Raleway';
     font-size: 26px;
@@ -109,37 +108,37 @@ li {
     align-content: center;
 }
 
-.studio,
-.portfolio-header {
+.page-header--studio-web,
+.page-header--portfolio {
     position: relative;
     margin-right: 46px;
 }
 
-.logo-header {
+.page-header__span--logo {
     color: #000000;
 }
 
-.header-mail,
-.header-phone {
+.page-header--mail,
+.page-header--phone {
     color: #757575;
     line-height: 1.14;
 }
-.header-mail {
+.page-header--mail {
     margin-right: 30px;
 }
 
-.mail-envelope,
-.number-phone {
+.page-header__icon--mail,
+.page-header__icon--phone {
     color: #757575;
     margin-right: 10px;
 }
-.link:hover .icon-header,
-.link:focus .icon-header {
+.page-header__link:hover .page-header__icon,
+.page-header__link:focus .page-header__icon {
     fill:#2196F3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.effective-for-business {
+.main-web {
     background-color: rgba(47, 48, 58, 0.4);
     background-image: url("../Images/background-zipped.jpg");
     background-size: cover;
@@ -153,7 +152,7 @@ li {
     justify-content: center;
 }
 
-.title {
+.main-web__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -177,7 +176,7 @@ li {
     margin-top: 40px;
 }
 
-.btn-order-service {
+.main-web__btn {
     width: 200px;
     height: 50px;
     border: none;
