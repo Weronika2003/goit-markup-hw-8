@@ -10,21 +10,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.main-web__title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-}
-
-
-
-.main-web__btn {
+&__btn {
     width: 200px;
     height: 50px;
     border: none;
+}
 }

@@ -1,3 +1,11 @@
+.heading--first {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
 .heading--sec {
     font-weight: 700;
     font-size: 36px;
@@ -6,4 +14,22 @@
     letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 50px;
+}
+.heading--third {
+    padding-top: 12px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.heading--fourth {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
 }

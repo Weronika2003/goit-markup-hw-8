@@ -1,11 +1,3 @@
-.cards--lorem__icon {
-    background: #F5F4FA;
-    border-radius: 4px;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-}
-
 .cards--lorem {
     font-size: 14px;
     line-height: 1.7;
@@ -17,15 +9,23 @@
     align-items: center;
     padding-bottom: 0;
     margin: 0 auto;
-}
 
-.cards--lorem__introduction {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    color: #212121;
-    text-align: justify;
-    display: flex;
-    margin-bottom: 10px;
+    &__icon {
+        background: #F5F4FA;
+        border-radius: 4px;
+        width: 270px;
+        height: 120px;
+        margin-bottom: 30px;
+    }
+
+    &__introduction {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: #212121;
+        text-align: justify;
+        display: flex;
+        margin-bottom: 10px;
+    }
 }
