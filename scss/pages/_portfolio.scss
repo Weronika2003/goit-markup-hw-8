@@ -3,13 +3,13 @@
         padding-bottom: 50px;
 
         &__box {
-            color: #212121;
+            color: $font-color;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.63;
             letter-spacing: 0.03em;
             text-align: center;
-            background-color: #F5F4FA;
+            background-color: $sec-background-color;
             border-radius: 4px;
             border: none;
             height: 38px;
@@ -40,9 +40,9 @@
             &:focus {
                 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 cursor: pointer;
-                color: #FFFFFF;
-                background: #2196F3;
-                box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+                color: $main-color;
+                background: $link-color;
+                box-shadow: 0px 3px 1px $modal-btn-border-color, 0px 1px 2px $shadow-fifth-color, 0px 2px 2px $shadow-third-color;
             }
         }
 
@@ -57,11 +57,11 @@
 
         &__link {
             position: relative;
-            background: #FFFFFF;
+            background: $main-color;
             text-decoration: none;
             width: 370px;
             height: 404px;
-            color: #757575;
+            color: $sec-font-color;
             font-size: 16px;
             line-height: 1.88;
             letter-spacing: 0.03em;
@@ -69,7 +69,7 @@
 
             &:hover,
             &:focus {
-                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+                box-shadow: 0px 1px 1px $shadow-third-color, 0px 4px 4px $shadow-sixth-color, 1px 4px 6px $shadow-seventh-color;
                 cursor: pointer;
                 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
             }
@@ -94,7 +94,7 @@
             height: 100%;
             top: 0;
             left: 0;
-            background-color: rgba(33, 150, 243, 0.9);
+            background-color: $link-light-color;
             transform: translateY(100%);
             transition: 400ms cubic-bezier(0.4, 0, 0.2, 1);
             animation-timing-function: ease-in-out;
@@ -103,7 +103,7 @@
                 font-size: 18px;
                 line-height: 28px;
                 letter-spacing: 0.03em;
-                color: #FFFFFF;
+                color: $main-color;
                 line-height: 1.6;
                 padding: 49px 45px 49px 24px;
             }
@@ -118,9 +118,9 @@
         &__label {
             display: flex;
             flex-direction: column;
-            border-bottom: 1px solid #EEEEEE;
-            border-right: 1px solid #EEEEEE;
-            border-left: 1px solid #EEEEEE;
+            border-bottom: 1px solid $portfolio-box-color;
+            border-right: 1px solid $portfolio-box-color;
+            border-left: 1px solid $portfolio-box-color;
             height: 110px;
             padding: 20px 24px;
         }
@@ -130,7 +130,7 @@
             font-size: 18px;
             line-height: 2;
             letter-spacing: 0.06em;
-            color: #212121;
+            color: $font-color;
         }
     }
 }

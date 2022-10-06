@@ -1,12 +1,12 @@
 .btn {
-    background: #2196F3;
+    background: $link-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: $main-color;
     text-align: center;
     align-items: center;
     cursor: pointer;
@@ -18,8 +18,8 @@
     right: 8px;
     width: 30px;
     height: 30px;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: $main-color;
+    border: 1px solid $modal-btn-border;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -27,19 +27,19 @@
 .modal__btn-close:hover .modal__icon--close,
 .modal__btn-close:focus .modal__icon--close {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: #2196F3;
+    fill: $link-color;
 }
 .footer__btn--subscribe {
     width: 200px;
     height: 50px;
-    background-color: #2196F3;
+    background-color: $link-color;
     border: none;
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: $main-color;
     display: flex;
     align-items: center;
     justify-content: center;

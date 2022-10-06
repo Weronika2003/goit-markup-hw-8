@@ -5,8 +5,8 @@
     transform: translate(-50%, -50%);
     width: 528px;
     min-height: 581px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background: $main-color;
+    box-shadow: 0px 1px 3px $shadow-third-color, 0px 1px 1px $shadow-sec-color, 0px 2px 1px $shadow-background-color;
     border-radius: 4px;
 
     &__div {
@@ -29,24 +29,24 @@
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.01em;
-        color: #757575;
+        color: $sec-font-color;
     }
 
     &__input {
         margin-top: 4px;
         width: 448px;
         height: 40px;
-        border: 1px solid rgba(33, 33, 33, 0.2);
+        border: 1px solid $modal-border-color;
         border-radius: 4px;
 
         &:focus
         {
-        border-color: #2196F3;
+        border-color: $link-color;
         outline: none;
     }
 
     &:focus-within~svg {
-        fill: #2196F3;
+        fill: $link-color;
     }
 }
 
@@ -62,15 +62,15 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
+    color: $comment-color;
     width: 448px;
     height: 120px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid $modal-border-color;
     border-radius: 4px;
     margin-top: 4px;
 
     &:focus {
-        border-color: #2196F3;
+        border-color: $link-color;
         outline: none;
     }
 
@@ -78,7 +78,7 @@
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.01em;
-        color: rgba(117, 117, 117, 0.5);
+        color: $comment-color;
     }
 }
 
@@ -86,7 +86,7 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: $sec-font-color;
     white-space: nowrap;
 
     &::before {
@@ -94,14 +94,14 @@
         display: inline-block;
         width: 16px;
         height: 15px;
-        border: 1px solid #212121;
+        border: 1px solid $font-color;
         border-radius: 2px;
         margin-right: 7px;
         margin-left: 14px;
 
 
         .modal--policy-regulations:checked+& {
-            background-color: #2196F3;
+            background-color: $link-color;
             border: none;
             background-image: url("../Images/checked.svg");
             background-repeat: no-repeat;
@@ -112,7 +112,7 @@
 }
 
 &__link--regulations {
-    color: #2196F3;
+    color: $link-color;
 }
 
 &__btn-send {
@@ -120,13 +120,13 @@
     height: 50px;
     border: none;
     border-radius: 4px;
-    background-color: #2196F3;
+    background-color: $link-color;
     text-align: center;
-    color: #FFFFFF;
+    color: $main-color;
     margin-top: 30px;
-    background: #2196F3;
+    background: $link-color;
     cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px $shadow-fourth-color;
 }
 
 &__div__btn-send {

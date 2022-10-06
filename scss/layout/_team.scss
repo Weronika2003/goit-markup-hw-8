@@ -1,17 +1,17 @@
 .team {
-    background: #F5F4FA;
+    background: $sec-background-color;
     height: 708px;
 
     &__icon {
         background-size: contain;
-        fill: #AFB1B8;
+        fill: $icons-color;
 
 
         &:hover {
             border-radius: 50%;
             border-width: 44px;
             background-color: #2196F3;
-            fill: #FFFFFF;
+            fill: $main-color;
             cursor: pointer;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
@@ -28,8 +28,8 @@
         outline: none;
         border-radius: 50%;
         border-width: 44px;
-        background-color: #2196F3;
-        fill: #FFFFFF;
+        background-color: $link-color;
+        fill: $main-color;
         cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -39,7 +39,7 @@
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: $sec-font-color;
         display: flex;
         gap: 30px;
         align-items: center;
@@ -49,15 +49,15 @@
     &__label {
         display: flex;
         flex-direction: column;
-        background: #FFFFFF;
+        background: $main-color;
         align-content: center;
         margin: 0;
         padding: 0;
     }
 
     &__box {
-        background-color: #FFFFFF;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        background-color: $main-color;
+        box-shadow: 0px 1px 3px $shadow-third-color, 0px 1px 1px $shadow-sec-color, 0px 2px 1px $shadow-background-color;
         border-radius: 0px 0px 4px 4px;
     }
 
@@ -67,7 +67,7 @@
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: $font-color;
         display: flex;
         flex-direction: column;
         margin-top: 30px;
