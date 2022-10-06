@@ -30,7 +30,7 @@
     &--studio-highlight::after {
         content: "";
         position: absolute;
-        background: $link-color;
+        background-color: $link-color;
         border-radius: 2px;
         width: 53px;
         height: 4px;
@@ -44,7 +44,7 @@
     &--portfolio-highlight::after {
         content: "";
         position: absolute;
-        background: $link-color;
+        background-color: $link-color;
         border-radius: 2px;
         width: 58px;
         height: 4px;

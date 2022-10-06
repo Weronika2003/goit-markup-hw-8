@@ -1,7 +1,7 @@
 body {
-    font-family: 'roboto', 'Raleway', 'sans-serif';
-    color: #212121;
-    background-color: #FFFFFF;
+    font-family: $main-font, $logo-font, $second-font;
+    color: $font-color;
+    background-color: $main-color;
     margin: 0;
     padding: 0;
     box-sizing: border-box;

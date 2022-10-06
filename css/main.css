@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "roboto", "Raleway", "sans-serif";
+  font-family: "Roboto", "Raleway", "Sans-serif";
   color: #212121;
   background-color: #FFFFFF;
   margin: 0;
@@ -39,7 +39,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .is-hidden {
@@ -49,7 +49,7 @@ img {
 }
 
 .btn {
-  background: #2196F3;
+  background-color: #2196F3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -72,7 +72,7 @@ img {
   right: 8px;
   width: 30px;
   height: 30px;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
@@ -116,26 +116,6 @@ img {
 
 .section {
   padding: 94px;
-}
-
-.footer__logo {
-  text-decoration: none;
-  font-family: "Ralawey";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196F3;
-  width: 145px;
-  padding-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-.footer__studio {
-  color: #FFFFFF;
 }
 
 .heading--first {
@@ -213,7 +193,7 @@ img {
 .page-header--studio-highlight::after {
   content: "";
   position: absolute;
-  background: #2196F3;
+  background-color: #2196F3;
   border-radius: 2px;
   width: 53px;
   height: 4px;
@@ -226,7 +206,7 @@ img {
 .page-header--portfolio-highlight::after {
   content: "";
   position: absolute;
-  background: #2196F3;
+  background-color: #2196F3;
   border-radius: 2px;
   width: 58px;
   height: 4px;
@@ -302,7 +282,7 @@ img {
           transform: translate(-50%, -50%);
   width: 528px;
   min-height: 581px;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -504,7 +484,7 @@ img {
   margin: 0 auto;
 }
 .cards--lorem__icon {
-  background: #F5F4FA;
+  background-color: #F5F4FA;
   border-radius: 4px;
   width: 270px;
   height: 120px;
@@ -550,7 +530,7 @@ img {
   top: 224px;
   left: 0;
   padding-top: 27px;
-  background: rgba(47, 48, 58, 0.8);
+  background-color: rgba(47, 48, 58, 0.8);
   width: 100%;
   height: 70px;
 }
@@ -620,7 +600,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   -ms-flex-line-pack: center;
       align-content: center;
   margin: 0;
@@ -685,6 +665,25 @@ a .team__link {
 .footer {
   background-color: #2F303A;
 }
+.footer__logo {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+  width: 145px;
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+.footer__studio {
+  color: #FFFFFF;
+}
 .footer__div {
   padding: 60px 15px;
   display: -webkit-box;
@@ -742,7 +741,7 @@ a .team__link {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   border-width: 44px;
   height: 44px;
@@ -880,7 +879,7 @@ a .team__link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   color: #FFFFFF;
-  background: #2196F3;
+  background-color: #2196F3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -897,7 +896,7 @@ a .team__link {
 }
 .portfolio-img__link {
   position: relative;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   text-decoration: none;
   width: 370px;
   height: 404px;

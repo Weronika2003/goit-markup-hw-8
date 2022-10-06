@@ -1,5 +1,5 @@
 .btn {
-    background: $link-color;
+    background-color: $link-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 700;
@@ -18,8 +18,8 @@
     right: 8px;
     width: 30px;
     height: 30px;
-    background: $main-color;
-    border: 1px solid $modal-btn-border;
+    background-color: $main-color;
+    border: 1px solid $modal-btn-border-color;
     border-radius: 50%;
     cursor: pointer;
 }
