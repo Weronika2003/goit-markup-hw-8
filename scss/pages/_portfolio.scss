@@ -73,19 +73,15 @@
                 cursor: pointer;
                 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
             }
-        }
 
-        &__label__div {
-            margin-top: 4px;
+                &:hover &__text {
+                    transform: translateX(0);
+                }
         }
 
         &__box {
             position: relative;
             overflow: hidden;
-        }
-
-        &__link:hover &__text {
-            transform: translateX(0);
         }
 
         &__text {
@@ -123,6 +119,9 @@
             border-left: 1px solid $portfolio-box-color;
             height: 110px;
             padding: 20px 24px;
+            &__div {
+                    margin-top: 4px;
+                }
         }
 
         &__strong {
