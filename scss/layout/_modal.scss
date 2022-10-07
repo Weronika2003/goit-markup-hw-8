@@ -39,98 +39,97 @@
         border: 1px solid $modal-border-color;
         border-radius: 4px;
 
-        &:focus
-        {
-        border-color: $link-color;
-        outline: none;
+        &:focus {
+            border-color: $link-color;
+            outline: none;
+        }
+
+        &:focus-within~svg {
+            fill: $link-color;
+        }
     }
 
-    &:focus-within~svg {
-        fill: $link-color;
-    }
-}
-
-&__icons {
-    position: absolute;
-    top: 29px;
-    left: 15px;
-}
-
-
-&__comment {
-    resize: none;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
-    color: $comment-color;
-    width: 448px;
-    height: 120px;
-    border: 1px solid $modal-border-color;
-    border-radius: 4px;
-    margin-top: 4px;
-
-    &:focus {
-        border-color: $link-color;
-        outline: none;
+    &__icons {
+        position: absolute;
+        top: 29px;
+        left: 15px;
     }
 
-    &::placeholder {
+
+    &__comment {
+        resize: none;
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.01em;
         color: $comment-color;
-    }
-}
+        width: 448px;
+        height: 120px;
+        border: 1px solid $modal-border-color;
+        border-radius: 4px;
+        margin-top: 4px;
 
-&__paragraph--regulations {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: $sec-font-color;
-    white-space: nowrap;
+        &:focus {
+            border-color: $link-color;
+            outline: none;
+        }
 
-    &::before {
-        content: "";
-        display: inline-block;
-        width: 16px;
-        height: 15px;
-        border: 1px solid $font-color;
-        border-radius: 2px;
-        margin-right: 7px;
-        margin-left: 14px;
-
-
-        .modal--policy-regulations:checked+& {
-            background-color: $link-color;
-            border: none;
-            background-image: url("../Images/checked.svg");
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-            background-size: 11px 8px;
+        &::placeholder {
+            font-size: 12px;
+            line-height: 1.17;
+            letter-spacing: 0.01em;
+            color: $comment-color;
         }
     }
-}
 
-&__link--regulations {
-    color: $link-color;
-}
+    &__paragraph--regulations {
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: $sec-font-color;
+        white-space: nowrap;
 
-&__btn-send {
-    width: 200px;
-    height: 50px;
-    border: none;
-    border-radius: 4px;
-    background-color: $link-color;
-    text-align: center;
-    color: $main-color;
-    margin-top: 30px;
-    background: $link-color;
-    cursor: pointer;
-    box-shadow: 0px 4px 4px $shadow-fourth-color;
-}
+        &::before {
+            content: "";
+            display: inline-block;
+            width: 16px;
+            height: 15px;
+            border: 1px solid $font-color;
+            border-radius: 2px;
+            margin-right: 7px;
+            margin-left: 14px;
 
-&__div__btn-send {
-    display: flex;
-    justify-content: center;
-}
+
+            .modal--policy-regulations:checked+& {
+                background-color: $link-color;
+                border: none;
+                background-image: url("../Images/checked.svg");
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: 11px 8px;
+            }
+        }
+    }
+
+    &__link--regulations {
+        color: $link-color;
+    }
+
+    &__btn-send {
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 4px;
+        background-color: $link-color;
+        text-align: center;
+        color: $main-color;
+        margin-top: 30px;
+        background: $link-color;
+        cursor: pointer;
+        box-shadow: 0px 4px 4px $shadow-fourth-color;
+    }
+
+    &__div__btn-send {
+        display: flex;
+        justify-content: center;
+    }
 }
