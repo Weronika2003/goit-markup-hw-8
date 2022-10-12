@@ -1,4 +1,20 @@
+@media screen and (max-width: 767px){
 .heading--first {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.615;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $main-color;
+}
+}
+
+
+
+
+
+/*.heading--first {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -32,4 +48,4 @@
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 12px;
-}
+}*/

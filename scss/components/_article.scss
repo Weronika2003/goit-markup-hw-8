@@ -1,0 +1,19 @@
+@media screen and (max-width:767px) {
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 320px;
+    min-height: 400px;
+}
+}
+@media screen and (max-width:1199px){
+    .article {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 400px;
+        }
+}
