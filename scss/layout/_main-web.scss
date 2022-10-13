@@ -1,7 +1,7 @@
-@media screen and (max-width: 767px){
+@media only screen and (max-width: 767px){
 .main-web {
     background-color: $third-background-color;
-    background-image: url("../Images/bg-img.jpg");
+    background-image: url("../Images/header-img.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +9,6 @@
     padding: 0;
     margin: 0;
     min-height: 400px;
-    width: 480px;
     width: 100vmin;
     display: flex;
     flex-direction: column;
@@ -22,26 +21,25 @@
         border: none;
         justify-content: center;
     }
-}
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+@media (min-width:320px) and (max-width: 767px) and (min-device-pixel-ratio: 2),
+(min-width:320px) and (max-width: 767px) and (min-resolution: 192dpi),
+(min-width:320px) and (max-width: 767px) and (min-resolution: 2dppx) {
     .main-web {
-        background-image: url('../Images/bg-img@2x.jpg');
+        background-image: url('../Images/header-img@2x.jpg');
     }
 }
 }
-@media screen and (max-width: 1199px) {
+}
+@media only screen and (min-width:768px) and (max-width: 1199px) {
 .main-web {
     background-color: $third-background-color;
-    background-image: url("../Images/bg-img-tablet.jpg");
-    background-size: contain;
+    background-image: url("../Images/header-img-tablet.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     overflow: visible;
     min-height: 400px;
     width: 100vmin;
-    width: 768px;
     padding: 0;
     margin: 0;
     display: flex;
@@ -55,15 +53,43 @@
         border: none;
     }
 }
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+}
+@media screen and (min-width:768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2),
+(min-width:768px) and (max-width: 1199px) and (min-resolution: 192dpi),
+(min-width:768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
     .main-web {
-        background-image: url(../Image/bg-img-tablet@2x.jpg);
+        background-image: url("../Images/header-img-tablet@2x.jpg");
+    }
+}
+@media screen and (min-width: 1200px){
+.main-web {
+    background-color: $third-background-color;
+    background-image: url("../Images/header-img-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vmin;
+    min-height: 600px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__btn {
+        width: 200px;
+        height: 50px;
+        border: none;
     }
 }
 }
-
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+(min-width: 1200px) and (min-resolution: 192dpi),
+(min-width: 1200px) and (min-resolution: 2dppx) {
+    .main-web {
+        background-image: url("../Images/header-img-desktop@2x.jpg");
+    }
+}
 
 
 

@@ -9,7 +9,28 @@
     color: $main-color;
 }
 }
-
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .heading--first {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.615;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-align: center;
+        color: $main-color;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .heading--first {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.615;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-align: center;
+        color: $main-color;
+    }
+}
 
 
 
