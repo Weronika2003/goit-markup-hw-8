@@ -8,6 +8,35 @@
     text-align: center;
     color: $main-color;
 }
+.heading--sec {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $font-color;
+    padding-bottom: 50px;
+}
+
+.heading--third {
+    padding-top: 12px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $main-color;
+}
+
+.heading--fourth {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
+}
 }
 @media screen and (min-width:768px) and (max-width:1199px) {
     .heading--first {
@@ -19,6 +48,35 @@
         text-align: center;
         color: $main-color;
     }
+    .heading--sec {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: $font-color;
+        padding-bottom: 50px;
+    }
+    
+    .heading--third {
+        padding-top: 12px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    
+    .heading--fourth {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.15;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 12px;
+    }
 }
 @media screen and (min-width: 1200px) {
     .heading--first {
@@ -29,6 +87,35 @@
         text-transform: uppercase;
         text-align: center;
         color: $main-color;
+    }
+    .heading--sec {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: $font-color;
+        padding-bottom: 50px;
+    }
+    
+    .heading--third {
+        padding-top: 12px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    
+    .heading--fourth {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.15;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 12px;
     }
 }
 

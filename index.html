@@ -12,7 +12,7 @@
         <title>WebStudio</title>
     </head>
 <body>
-   <!-- <header class="page-header">
+  <header class="page-header">
         <div class="container page-header__container">
         <nav>
             <ul class="page-header__nav">
@@ -32,19 +32,20 @@
                     <use href="./Images/icons.svg#icon-phone" height="16" y="2"></use>
                 </svg>+48 111 111 111</a></li>
         </ul>
+        <p><svg class="page-header__modal-menu" width="24" height="16" .js-open-menu><use href="./Images/icons.svg#icon-menu"></use></svg></p>
         </div>
-    </header>-->
+    </header>
     <main>
         <article class="article main-web">
             <h1 class="heading--first">EFEKTYWNE ROZWIĄZANIA<br/> DLA WASZEGO BIZNESU </h1>
             <button type="button" class="btn main-web__btn" data-modal-open>Zamów usługe</button>
         </article>  
-       <!-- <section class="section"> 
+       <section class="section"> 
         <div class="container">
         <ul class="cards--lorem">
             <li class="cards--lorem__list">
                 <svg class="cards--lorem__icon" width="270" height="120">
-                    <use href="./Images/icons.svg#icon-antenna-1" width="70" height="70" x="100" y="25"></use>
+                    <use href="./Images/icons.svg#icon-antenna-1" width="70" height="70"></use>
                 </svg>
                 <strong class="cards--lorem__introduction">LOREM IPSUM</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada </li>
             <li class="cards--lorem__list">
@@ -64,8 +65,8 @@
                 <strong class="cards--lorem__introduction">LOREM IPSUM</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
         </ul> 
         </div>
-        </section>-->
-         <!--<section class="section demonstration">
+        </section>
+        <section class="section demonstration">
             <div class="container">
                  <h2 class="heading--sec">Czym się zajmujemy</h2>
                 <ul class="demonstration__cards">
@@ -86,8 +87,8 @@
                     </li>
                 </ul>
             </div>
-        </section>-->
-    <!--<section class="section team">
+        </section>
+    <section class="section team">
         <div class="container">
     <h2 class="heading--sec">Nasz zespół</h2>
     
@@ -175,8 +176,8 @@
         </li>
     </ul>
     </div>
-    </section>-->
-   <!-- <section class="section clients">
+    </section>
+    <section class="section clients">
         <div class="container">
             <h2 class="heading--sec"> Nasi klienci</h2>
             <ul class="clients__list">
@@ -218,9 +219,9 @@
             </li>
             </ul>
         </div>
-    </section>-->
+    </section>
     </main>
-    <!--<footer class="footer">
+    <footer class="footer">
         <div class="container footer__div">
         <div class="footer__address">
         <a class="footer__logo" href="index.html">Web<span class="footer__studio">Studio</span></a>
@@ -257,8 +258,8 @@
             </form>
         </div>
         </div>
-    </footer>-->
-   <!-- <div class="backdrop is-hidden" data-modal>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal__btn-close" data-modal-close>
                 <svg class="modal__icon--close" width="30" height="30">
@@ -295,7 +296,32 @@
             </form>
             </div>
         </div>
-    </div>-->
+    </div>
+    <div class="backdrop is-hidden" .js-menu-container>
+        <div class="menu-modal">
+            <button type="button" class="menu-modal-close" .js-close-menu>
+                <svg class="menu-modal__icon--close" width="18.67" height="18.67">
+                    <use href="./Images/icons.svg#icon-close-mark"></use>
+                </svg>
+            </button>
+            <ul class="menu-modal__grid">
+                <li><a class="menu-modal--agency" href="">Agencja</a></li>
+                <li><a class="menu-modal--portfolio" href="">Portfolio</a></li>
+                <li><a class="menu-modal--contact" href="">Kontakt</a></li>
+            </ul>
+            <ul class="menu-modal__grid--contacts">
+                <li><a class="menu-modal__phone" href="tel:+48-111-111-111">+48 111 111 111</a></li>
+                <li><a class="menu-modal__mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            </ul>
+            <ul class="menu-modal__grid--media">
+                <li><a class="menu-modal__media" href="">Instagram</a></li>
+                <li><a class="menu-modal__media" href="">Facebook</a></li>
+                <li><a class="menu-modal__media" href="">Twitter</a></li>
+                <li><a class="menu-modal__media" href="">Linkedin</a></li>
+
+            </ul>
+        </div>
+    </div>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
         crossorigin="anonymous"></script>

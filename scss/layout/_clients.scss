@@ -1,3 +1,33 @@
+@media screen and (max-width: 767px) {
+    
+.clients {
+    &__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    &__icon {
+        fill: $icons-color;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid $icons-color;
+        border-radius: 4px;
+        width: 170px;
+        height: 92px;
+    }
+
+    &__link:hover svg,
+    &__link:focus svg {
+        outline: none;
+        fill: $link-color;
+        border-color: $link-color;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
 .clients {
     &__list {
         display: flex;
@@ -22,3 +52,62 @@
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
+}
+
+@media screen and (min-width: 1200px){
+.clients {
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__icon {
+        fill: $icons-color;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid $icons-color;
+        border-radius: 4px;
+        width: 170px;
+        height: 92px;
+    }
+
+    &__link:hover svg,
+    &__link:focus svg {
+        outline: none;
+        fill: $link-color;
+        border-color: $link-color;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+}
+
+
+
+
+
+
+
+/*.clients {
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__icon {
+        fill: $icons-color;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid $icons-color;
+        border-radius: 4px;
+        width: 170px;
+        height: 92px;
+    }
+
+    &__link:hover svg,
+    &__link:focus svg {
+        outline: none;
+        fill: $link-color;
+        border-color: $link-color;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}*/

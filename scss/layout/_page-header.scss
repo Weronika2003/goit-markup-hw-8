@@ -1,6 +1,7 @@
 @media screen and (max-width: 767px){
 .page-header {
     border-bottom: $header-border-color solid 1px;
+    width: 480px;
 
     &__nav {
         font-size: 14px;
@@ -8,26 +9,31 @@
         line-height: 1.14;
         display: flex;
         align-items: center;
-        margin-right: 46px;
-        display: none;
 
         & .page-header--studio-highlight {
             color: $link-color;
+            display: none;
         }
 
         & .page-header--portfolio-highlight {
             color: $link-color;
+            display: none;
         }
     }
+    &__modal-menu {
+        color: $font-color;
+        display: block;
+        justify-content: space-between;
+    }
+         
 
     &__container {
-        padding: 24px 15px;
+        padding: 16px 15px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        min-width: 320px;
+        max-width: 767px;
     }
-
-
 
     &--studio-highlight::after {
         content: "";
@@ -41,6 +47,7 @@
         top: 46px;
         right: 0px;
         z-index: 1;
+        display: none;
     }
 
     &--portfolio-highlight::after {
@@ -55,6 +62,11 @@
         top: 46px;
         right: 0px;
         z-index: 1;
+        display: none;
+    }
+
+    &--contacts{
+        display: none;
     }
 
     &__list--contacts {
@@ -64,6 +76,7 @@
         display: flex;
         align-content: center;
         align-items: baseline;
+        display: none;
     }
 
 
@@ -76,10 +89,12 @@
         &:focus {
             transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
             color: $link-color;
+            display: none;
 
             & .page-header__icon {
                 fill: $link-color;
                 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                display: none;
             }
         }
     }
@@ -87,12 +102,12 @@
     &--logo {
         color: $link-color;
         font-family: $logo-font;
-        font-size: 26px;
-        line-height: 1.2;
+        font-size: 24px;
+        line-height: 1.174;
         font-weight: 700;
         letter-spacing: 0.03em;
-        margin-right: 47px;
         align-content: center;
+        justify-content: space-between;
     }
 
     &__span--logo {
@@ -103,6 +118,7 @@
     &--portfolio {
         position: relative;
         margin-right: 46px;
+        display: none;
     }
 
 
@@ -110,19 +126,23 @@
     &--phone {
         color: $sec-font-color;
         line-height: 1.14;
+        display: none;
     }
 
     &--mail {
         margin-right: 30px;
+        display: none;
     }
 
     &__icon--mail,
     &__icon--phone {
         color: $sec-font-color;
         margin-right: 10px;
+        display: none;
     }
 }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1199px){
 .page-header {
     border-bottom: $header-border-color solid 1px;
@@ -140,7 +160,7 @@
         }
 
         & .page-header--portfolio-highlight {
-            color: $link-color;
+            color: $link-color;;
         }
     }
 
@@ -165,6 +185,7 @@
         top: 46px;
         right: 0px;
         z-index: 1
+      
     }
 
     &--portfolio-highlight::after {
@@ -244,7 +265,14 @@
     &__icon--phone {
         color: $sec-font-color;
         margin-right: 10px;
+        
     }
+    &__modal-menu {
+        color: $font-color;
+        display: flex;
+        margin-right: 284px;
+        display: none;
+          }
 }
 }
 @media screen and (min-width:1200px){
@@ -369,6 +397,12 @@
         color: $sec-font-color;
         margin-right: 10px;
     }
+    &__modal-menu {
+        color: $font-color;
+        display: flex;
+        margin-right: 284px;
+        display: none;
+          }
 }
 }
 
